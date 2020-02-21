@@ -1,5 +1,5 @@
 def prime?(num)
-  num.even? { |i| i.even? }
+  if num.even? { |i| i.even? }
     true
   else
     false
