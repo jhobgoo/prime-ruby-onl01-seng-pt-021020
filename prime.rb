@@ -1,5 +1,5 @@
-def prime?(num)
-  if num < 2 || =< 0
+def prime?(integer)
+  if integer < 2 || =< 0
     false    
   else
     true
