@@ -1,6 +1,7 @@
 def prime?(num)
-  num.even? { |i| 
-    true
+  
+  num.even? { |i| i.even? }
+    falase
   else
     false
   end
